@@ -1,0 +1,3 @@
+Operación iniciada
+Resultado:0.23255813953488372
+Operación finalizada

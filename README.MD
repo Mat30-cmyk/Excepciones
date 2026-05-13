@@ -39,8 +39,12 @@ except:
 ## Ejecución
 
 ```bash
-python ejemplos/Try-except/Ejemplo_Sencillo.py
+py ejemplos/Try-except/Ejemplo_Sencillo.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Try%20(1).png)
 
 ---
 
@@ -64,8 +68,12 @@ except ValueError:
 ## Ejecución
 
 ```bash
-python ejemplos/Try-except/Excepciones_Especificas.py
+py ejemplos/Try-except/Excepciones_Especificas.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Try%20(2).png)
 
 ---
 
@@ -89,8 +97,12 @@ except FileNotFoundError as error:
 ## Ejecución
 
 ```bash
-python ejemplos/Try-except/Accediendo_Informacion_Excepcion.py
+py ejemplos/Try-except/Accediendo_Informacion_Excepcion.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Try%20(3).png)
 
 ---
 
@@ -112,8 +124,12 @@ except (FileNotFoundError, ValueError, ZeroDivisionError) as e:
 ## Ejecución
 
 ```bash
-python ejemplos/Try-except/Combinando_Excepciones.py
+py ejemplos/Try-except/Combinando_Excepciones.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Try%20(4).png)
 
 ---
 
@@ -146,8 +162,12 @@ print(f"Tu edad es: {edad_usuario}")
 ## Ejecución
 
 ```bash
-python ejemplos/Try-except/Aplicaciones_Reales.py
+py ejemplos/Try-except/Aplicaciones_Reales.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Try%20(5).png)
 
 ---
 
@@ -212,8 +232,12 @@ archivo.close()
 ## Ejecución
 
 ```bash
-python ejemplos/Try-except/Buenas_Practicas.py
+py ejemplos/Try-except/Buenas_Practicas.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Try%20(6).png)
 
 </details>
 
@@ -234,8 +258,12 @@ except ZeroDivisionError:
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/ZeroDivisionError_Ejemplo.py
+py ejemplos/Tipos_Comunes/ZeroDivisionError_Ejemplo.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(1).png)
 
 ---
 
@@ -253,8 +281,12 @@ except OverflowError:
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/OverflowError_Ejemplo.py
+py ejemplos/Tipos_Comunes/OverflowError_Ejemplo.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(2).png)
 
 ---
 
@@ -272,9 +304,12 @@ except TypeError:
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/TypeError_Ejemplo.py
+py ejemplos/Tipos_Comunes/TypeError_Ejemplo.py
 ```
 
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(3).png)
 ---
 
 # Ejemplo 4 — ValueError
@@ -291,8 +326,12 @@ except ValueError:
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/ValueError_Ejemplo.py
+py ejemplos/Tipos_Comunes/ValueError_Ejemplo.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(4).png)
 
 ---
 
@@ -311,8 +350,12 @@ except IndexError:
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/IndexError_Ejemplo.py
+py ejemplos/Tipos_Comunes/IndexError_Ejemplo.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(5).png)
 
 ---
 
@@ -331,8 +374,12 @@ except KeyError:
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/KeyError_Ejemplo.py
+py ejemplos/Tipos_Comunes/KeyError_Ejemplo.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(6).png)
 
 ---
 
@@ -351,8 +398,12 @@ except FileNotFoundError:
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/FileNotFoundError_Ejemplo.py
+py ejemplos/Tipos_Comunes/FileNotFoundError_Ejemplo.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(7).png)
 
 ---
 
@@ -371,8 +422,12 @@ except PermissionError:
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/PermissionError_Ejemplo.py
+py ejemplos/Tipos_Comunes/PermissionError_Ejemplo.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(8).png)
 
 ---
 
@@ -391,8 +446,12 @@ except AttributeError:
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/AttributeError_Ejemplo.py
+py ejemplos/Tipos_Comunes/AttributeError_Ejemplo.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(9).png)
 
 ---
 
@@ -410,8 +469,12 @@ except NameError:
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/NameError_Ejemplo.py
+py ejemplos/Tipos_Comunes/NameError_Ejemplo.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(10).png)
 
 ---
 
@@ -429,8 +492,12 @@ except ImportError:
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/ImportError_Ejemplo.py
+py ejemplos/Tipos_Comunes/ImportError_Ejemplo.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(11).png)
 
 ---
 
@@ -445,10 +512,14 @@ except ModuleNotFoundError:
     print("El módulo no existe")
 ```
 
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(12).png)
+
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/ModuleNotFoundError_Ejemplo.py
+py ejemplos/Tipos_Comunes/ModuleNotFoundError_Ejemplo.py
 ```
 
 ---
@@ -468,8 +539,12 @@ except Exception as e:
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/Jerarquia_Excepciones.py
+py ejemplos/Tipos_Comunes/Jerarquia_Excepciones.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(13).png)
 
 ---
 
@@ -488,8 +563,12 @@ except Exception as e:
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/Identificar_Excepcion.py
+py ejemplos/Tipos_Comunes/Identificar_Excepcion.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(14).png)
 
 ---
 
@@ -514,8 +593,12 @@ except requests.exceptions.HTTPError as e:
 ## Ejecución
 
 ```bash
-python ejemplos/Tipos_Comunes/Bibliotecas_Externas.py
+py ejemplos/Tipos_Comunes/Bibliotecas_Externas.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Tipos_Comunes%20(15).png)
 
 </details>
 
@@ -541,8 +624,12 @@ else:
 ## Ejecución
 
 ```bash
-python ejemplos/Else_y_Finally/Uso_Else.py
+py ejemplos/Else_y_Finally/Uso_Else.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Else_y_Finally%20(1).png)
 
 ---
 
@@ -565,8 +652,12 @@ else:
 ## Ejecución
 
 ```bash
-python ejemplos/Else_y_Finally/Else_Archivos.py
+py ejemplos/Else_y_Finally/Else_Archivos.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Else_y_Finally%20(2).png)
 
 ---
 
@@ -590,8 +681,12 @@ else:
 ## Ejecución
 
 ```bash
-python ejemplos/Else_y_Finally/Else_Operaciones.py
+py ejemplos/Else_y_Finally/Else_Operaciones.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Else_y_Finally%20(3).png)
 
 ---
 
@@ -623,8 +718,12 @@ finally:
 ## Ejecución
 
 ```bash
-python ejemplos/Else_y_Finally/Uso_Finally.py
+py ejemplos/Else_y_Finally/Uso_Finally.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Else_y_Finally%20(4).png)
 
 ---
 
@@ -654,8 +753,12 @@ finally:
 ## Ejecución
 
 ```bash
-python ejemplos/Else_y_Finally/Finally_Recursos.py
+py ejemplos/Else_y_Finally/Finally_Recursos.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Else_y_Finally%20(5).png)
 
 ---
 
@@ -680,8 +783,12 @@ finally:
 ## Ejecución
 
 ```bash
-python ejemplos/Else_y_Finally/Finally_Restaurar_Estado.py
+py ejemplos/Else_y_Finally/Finally_Restaurar_Estado.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Else_y_Finally%20(6).png)
 
 ---
 
@@ -704,8 +811,12 @@ finally:
 ## Ejecución
 
 ```bash
-python ejemplos/Else_y_Finally/Registrar_Finalizacion.py
+py ejemplos/Else_y_Finally/Registrar_Finalizacion.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Else_y_Finally%20(7).png)
 
 ---
 
@@ -735,8 +846,12 @@ finally:
 ## Ejecución
 
 ```bash
-python ejemplos/Else_y_Finally/Else_Finally_Combinado.py
+py ejemplos/Else_y_Finally/Else_Finally_Combinado.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Else_y_Finally%20(8).png)
 
 ---
 
@@ -767,8 +882,12 @@ demostrar_orden()
 ## Ejecución
 
 ```bash
-python ejemplos/Else_y_Finally/Orden_Ejecucion.py
+py ejemplos/Else_y_Finally/Orden_Ejecucion.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Else_y_Finally%20(9).png)
 
 ---
 
@@ -797,8 +916,12 @@ print(dividir(10, 0))
 ## Ejecución
 
 ```bash
-python ejemplos/Else_y_Finally/Return_Finally.py
+py ejemplos/Else_y_Finally/Return_Finally.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Else_y_Finally%20(10).png)
 
 ---
 
@@ -820,8 +943,12 @@ finally:
 ## Ejecución
 
 ```bash
-python ejemplos/Else_y_Finally/Excepciones_Finally.py
+py ejemplos/Else_y_Finally/Excepciones_Finally.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Else_y_Finally%20(11).png)
 
 </details>
 
@@ -850,8 +977,12 @@ except ZeroDivisionError as e:
 ## Ejecución
 
 ```bash
-python ejemplos/Lanzar_Excepciones/Uso_Raise.py
+py ejemplos/Lanzar_Excepciones/Uso_Raise.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Lanzar_Excepciones%20(1).png)
 
 # Ejemplo 2 — Validación de parámetros
 
@@ -875,8 +1006,12 @@ except ValueError as e:
 ## Ejecución
 
 ```bash
-python ejemplos/Lanzar_Excepciones/Validacion_Parametros.py
+py ejemplos/Lanzar_Excepciones/Validacion_Parametros.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Lanzar_Excepciones%20(2).png)
 
 # Ejemplo 3 — Estados imposibles
 
@@ -904,8 +1039,12 @@ except RuntimeError as e:
 ## Ejecución
 
 ```bash
-python ejemplos/Lanzar_Excepciones/Estados_Imposibles.py
+py ejemplos/Lanzar_Excepciones/Estados_Imposibles.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Lanzar_Excepciones%20(3).png)
 
 # Ejemplo 4 — Precondiciones no cumplidas
 
@@ -945,8 +1084,12 @@ except ValueError as e:
 ## Ejecución
 
 ```bash
-python ejemplos/Lanzar_Excepciones/Precondiciones.py
+py ejemplos/Lanzar_Excepciones/Precondiciones.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Lanzar_Excepciones%20(4).png)
 
 # Ejemplo 5 — TypeError y ValueError
 
@@ -973,8 +1116,12 @@ except (TypeError, ValueError) as e:
 ## Ejecución
 
 ```bash
-python ejemplos/Lanzar_Excepciones/TypeError_ValueError.py
+py ejemplos/Lanzar_Excepciones/TypeError_ValueError.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Lanzar_Excepciones%20(5).png)
 
 # Ejemplo 6 — Validación de tipos
 
@@ -1001,8 +1148,12 @@ except TypeError as e:
 ## Ejecución
 
 ```bash
-python ejemplos/Lanzar_Excepciones/Validacion_Tipos.py
+py ejemplos/Lanzar_Excepciones/Validacion_Tipos.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Lanzar_Excepciones%20(6).png)
 
 # Ejemplo 7 — RuntimeError
 
@@ -1026,8 +1177,12 @@ except RuntimeError as e:
 ## Ejecución
 
 ```bash
-python ejemplos/Lanzar_Excepciones/RuntimeError_Ejemplo.py
+py ejemplos/Lanzar_Excepciones/RuntimeError_Ejemplo.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Lanzar_Excepciones%20(7).png)
 
 # Ejemplo 8 — Relanzando excepciones
 
@@ -1054,8 +1209,12 @@ except FileNotFoundError:
 ## Ejecución
 
 ```bash
-python ejemplos/Lanzar_Excepciones/Relanzar_Excepciones.py
+py ejemplos/Lanzar_Excepciones/Relanzar_Excepciones.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Lanzar_Excepciones%20(8).png)
 
 # Ejemplo 9 — Excepciones encadenadas
 
@@ -1086,8 +1245,12 @@ except ConfigurationError as e:
 ## Ejecución
 
 ```bash
-python ejemplos/Lanzar_Excepciones/Excepciones_Encadenadas.py
+py ejemplos/Lanzar_Excepciones/Excepciones_Encadenadas.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Lanzar_Excepciones%20(9).png)
 
 ---
 
@@ -1138,8 +1301,12 @@ except SaldoInsuficienteError as e:
 ## Ejecución
 
 ```bash
-python ejemplos/Lanzar_Excepciones/Excepciones_Personalizadas.py
+py ejemplos/Lanzar_Excepciones/Excepciones_Personalizadas.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Lanzar_Excepciones%20(10).png)
 
 ---
 
@@ -1161,8 +1328,12 @@ if not os.path.exists(ruta):
 ## Ejecución
 
 ```bash
-python ejemplos/Lanzar_Excepciones/Buenas_Practicas.py
+py ejemplos/Lanzar_Excepciones/Buenas_Practicas.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Lanzar_Excepciones%20(11).png)
 
 ---
 
@@ -1194,8 +1365,12 @@ except (ValueError, TypeError) as e:
 ## Ejecución
 
 ```bash
-python ejemplos/Lanzar_Excepciones/Validacion_Temprana.py
+py ejemplos/Lanzar_Excepciones/Validacion_Temprana.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Lanzar_Excepciones%20(12).png)
 
 ---
 
@@ -1244,7 +1419,11 @@ except KeyboardInterrupt:
 ## Ejecución
 
 ```bash
-python ejemplos/Lanzar_Excepciones/Validacion_Entrada_Usuario.py
+py ejemplos/Lanzar_Excepciones/Validacion_Entrada_Usuario.py
 ```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Ejem_Lanzar_Excepciones%20(13).png)
 
 </details>
