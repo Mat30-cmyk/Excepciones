@@ -1,5 +1,25 @@
 # Manejo de Excepciones en Python
 
+## ¿Qué son las excepciones?
+
+Las excepciones en Python son errores que ocurren durante la ejecución de un programa y que pueden interrumpir su funcionamiento si no son controlados correctamente.
+
+El manejo de excepciones permite detectar estos errores y responder de manera adecuada utilizando estructuras como `try`, `except`, `else` y `finally`.
+
+Gracias al manejo de excepciones, los programas pueden ser más seguros, evitar cierres inesperados y ofrecer mensajes claros al usuario cuando ocurre un problema.
+
+---
+
+## Diferencia entre `except`, `else` y `finally`
+
+| Bloque | Función |
+|---|---|
+| `except` | Se ejecuta cuando ocurre una excepción o error dentro del bloque `try`. |
+| `else` | Se ejecuta únicamente si no ocurrió ningún error en el bloque `try`. |
+| `finally` | Se ejecuta siempre, ocurra o no una excepción. Se usa normalmente para liberar recursos o finalizar procesos. |
+
+---
+
 ## Descripción
 
 Este repositorio contiene el desarrollo de la actividad **GA1-220501096-01-AA1-EV05 – Python Intermedio: Manejo de Excepciones**, enfocada en el aprendizaje y aplicación del manejo de errores en Python.
@@ -17,6 +37,78 @@ En este proyecto se incluyen ejemplos prácticos relacionados con:
 Además, se desarrolló un reto práctico donde se implementa una función capaz de capturar errores comunes como `ValueError` y `ZeroDivisionError`, mostrando mensajes personalizados y garantizando la correcta finalización del programa mediante `finally`.
 
 El objetivo principal de esta actividad es comprender la importancia del manejo de excepciones para desarrollar programas más seguros, organizados y resistentes ante errores durante la ejecución.
+
+---
+
+## Estructura del Proyecto
+
+```bash
+excepciones/
+│
+├── README.md
+│
+├── capturas/
+│
+├── ejemplos/
+│   │
+│   ├── Try-except/
+│   │   ├── Ejemplo_Sencillo.py
+│   │   ├── Excepciones_Especificas.py
+│   │   ├── Accediendo_Informacion_Excepcion.py
+│   │   ├── Combinando_Excepciones.py
+│   │   ├── Aplicaciones_Reales.py
+│   │   └── Buenas_Practicas.py
+│   │
+│   ├── Tipos_Comunes/
+│   │   ├── ZeroDivisionError_Ejemplo.py
+│   │   ├── OverflowError_Ejemplo.py
+│   │   ├── TypeError_Ejemplo.py
+│   │   ├── ValueError_Ejemplo.py
+│   │   ├── IndexError_Ejemplo.py
+│   │   ├── KeyError_Ejemplo.py
+│   │   ├── FileNotFoundError_Ejemplo.py
+│   │   ├── PermissionError_Ejemplo.py
+│   │   ├── AttributeError_Ejemplo.py
+│   │   ├── NameError_Ejemplo.py
+│   │   ├── ImportError_Ejemplo.py
+│   │   ├── ModuleNotFoundError_Ejemplo.py
+│   │   ├── Jerarquia_Excepciones.py
+│   │   ├── Identificar_Excepcion.py
+│   │   └── Bibliotecas_Externas.py
+│   │
+│   ├── Else_y_Finally/
+│   │   ├── Uso_Else.py
+│   │   ├── Else_Archivos.py
+│   │   ├── Else_Operaciones.py
+│   │   ├── Uso_Finally.py
+│   │   ├── Finally_Recursos.py
+│   │   ├── Finally_Restaurar_Estado.py
+│   │   ├── Registrar_Finalizacion.py
+│   │   ├── Else_Finally_Combinado.py
+│   │   ├── Orden_Ejecucion.py
+│   │   ├── Return_Finally.py
+│   │   └── Excepciones_Finally.py
+│   │
+│   └── Lanzar_Excepciones/
+│       ├── Uso_Raise.py
+│       ├── Validacion_Parametros.py
+│       ├── Estados_Imposibles.py
+│       ├── Precondiciones.py
+│       ├── TypeError_ValueError.py
+│       ├── Validacion_Tipos.py
+│       ├── RuntimeError_Ejemplo.py
+│       ├── Relanzar_Excepciones.py
+│       ├── Excepciones_Encadenadas.py
+│       ├── Excepciones_Personalizadas.py
+│       ├── Buenas_Practicas.py
+│       ├── Validacion_Temprana.py
+│       └── Validacion_Entrada_Usuario.py
+│
+└── reto/
+    └── dividir_numeros.py
+```
+
+## Evidencias
 
 <details>
 <summary> Try-Except </summary>
@@ -1427,3 +1519,84 @@ py ejemplos/Lanzar_Excepciones/Validacion_Entrada_Usuario.py
 ![Ejecución del programa](/capturas/Ejem_Lanzar_Excepciones%20(13).png)
 
 </details>
+
+<details>
+<summary>Reto</summary>
+
+# Reto — Manejo de Excepciones
+
+## Código
+
+```python
+def dividir_numeros():
+
+    try:
+        # Solicitar los números al usuario
+        numero1 = input("Introduce el primer número: ")
+        numero2 = input("Introduce el segundo número: ")
+
+        # Convertir los datos a enteros
+        numero1 = int(numero1)
+        numero2 = int(numero2)
+
+        # Realizar la división
+        resultado = numero1 / numero2
+
+        # Mostrar el resultado
+        print(f"El resultado de la división es: {resultado}")
+
+    except ValueError:
+        # Error si el usuario escribe texto u otro valor inválido
+        print("Error: Debes introducir un número válido")
+
+    except ZeroDivisionError:
+        # Error si el segundo número es 0
+        print("Error: No es posible dividir entre cero")
+
+    finally:
+        # Este bloque siempre se ejecuta
+        print("Operación finalizada")
+
+
+# Llamada a la función
+dividir_numeros()
+```
+
+## Ejecución 
+
+```bash
+py reto/dividir_numeros.py
+```
+
+## Captura de ejecución
+
+![Ejecución del programa](/capturas/Reto_Ejecución.png)
+
+# Justificación de la solución
+
+La solución desarrollada para el reto aplica correctamente el manejo de excepciones en Python con el objetivo de prevenir errores durante la ejecución del programa y mejorar la interacción con el usuario.
+
+Se utilizó un bloque `try` para ejecutar las instrucciones principales del programa, incluyendo la solicitud de datos mediante `input()`, la conversión de los valores ingresados a números enteros y la operación de división.
+
+Además, se implementaron excepciones específicas para controlar errores comunes:
+
+- `ValueError`: permite detectar cuando el usuario ingresa texto o caracteres no válidos en lugar de números enteros.
+- `ZeroDivisionError`: evita que el programa falle al intentar dividir entre cero.
+
+También se utilizó el bloque `finally`, el cual garantiza la ejecución del mensaje `"Operación finalizada"` sin importar si ocurrió un error o no durante el proceso. Esto demuestra una buena práctica en el manejo de excepciones y control de flujo del programa.
+
+Gracias a esta implementación, el programa es más seguro, organizado y resistente ante entradas incorrectas del usuario.
+
+</details>
+
+---
+
+## Reflexión Personal
+
+El manejo de excepciones es una herramienta fundamental en Python porque permite desarrollar programas más seguros, organizados y resistentes ante errores inesperados.
+
+Durante esta actividad aprendí que controlar errores evita que una aplicación termine de forma abrupta y mejora la experiencia del usuario al mostrar mensajes claros y personalizados.
+
+Además, comprendí la importancia de utilizar excepciones específicas en lugar de capturar todos los errores de manera general, ya que esto facilita la identificación y solución de problemas en el código.
+
+Finalmente, el uso de bloques como `finally` demuestra buenas prácticas de programación, permitiendo garantizar la ejecución de ciertas instrucciones importantes independientemente del resultado del programa.
